@@ -254,6 +254,28 @@ nav {background-color: #72bd4a;}
 .quick-link a:hover:after {content: ''; position: absolute; bottom: -17px; left: 0px; background: url('../images/learn-more.png') center no-repeat; background-size: cover; height: 8px; width: 90px;}
 
 
+/*--------------- #video-player ---------------*/
+#video-player {position: relative; height: 700px;}
+
+
+/*--------------- #welcome ---------------*/
+#welcome {padding: 20px 0;}
+#welcome .container {width: 1390px; max-width: 100%;}
+
+#welcome-left {background-color: #135491;}
+#welcome-left h2 {font-family: 'Coves'; font-weight: 700; font-size: 60px; line-height: 60px; text-transform: uppercase; color: #fff; margin-bottom: 25px; text-shadow: 0px 6px 2px rgba(0,0,0,.2);}
+#welcome-left h2 span {display: block; font-size: 21px; line-height: 48px; letter-spacing: 0.07em; margin-top: 2px; text-shadow: none;}
+#welcome-left p {font-size: 18px; line-height: 28px; font-weight: 600; color: #fff; margin-bottom: 43px;}
+#welcome-left .btn {font-weight: 700; font-size: 14px; width: 200px; line-height: 40px; background-color: #149b9b; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
+
+#welcome-right {background-color: #71bc49;}
+#welcome-right h3 {font-size: 24px; line-height: 45px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #131313;}
+#welcome-right a {display: block; font-size: 20px; line-height: 30px; font-weight: 700; text-transform: capitalize; text-decoration: none; color: #fff; margin-bottom: 10px;}
+#welcome-right a:last-child {display: inline-block; position: relative; font-size: 14px; line-height: 18px; text-transform: uppercase; margin-top: 40px;}
+#welcome-right a:last-child:after {content: ''; position: absolute; top: 5px; right: -60px; background: url('../images/arrow.png') center no-repeat; background-size: cover; height: 14px; width: 48px;}
+
+#welcome-img {width: 385px; height: 345px; position: absolute; top: 50%; left: 50%; transform: translate(-24.2%, -52.5%);}
+
 /* -----------------------------------------
 
 #inner
@@ -366,6 +388,11 @@ nav {background-color: #72bd4a;}
 	#nav>li>ul li a {margin: 0; padding: 0;}
 
 	#flyout,#nav{display:block!important}
+
+
+	/*--------------- #welcome ---------------*/
+	#welcome-left {padding: 44px 230px 70px 92px;}
+	#welcome-right {padding: 25px 0 56px 226px;}
 
 }
 

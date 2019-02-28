@@ -240,8 +240,9 @@
 				<div id="welcome-left" class="col-md-7">
 					<h2>welcome to <span>the emerald coast regional council</span></h2>
 					<p>
-						The ECRC is one of 10 Regional Planning Councils created by the state of Florida to provide planning, economic development, and technical assistance to local governments. The ECRC supports a seven-county region in the Florida panhandle consisting of; Escambia, Santa Rosa, Okaloosa, Walton, Bay, Washington, and Holmes counties. Our mission is to preserve and enhance the quality of life in northwest Florida.
+						The ECRC is one of 10 Regional Planning Councils created by the state of Florida to provide planning, economic development, and technical assistance to local governments. The ECRC supports a seven-county
 					</p>
+					<a href="./" class="btn">learn more</a>
 				</div><!-- /#welcome-left.col-md-7 -->
 				<div id="welcome-right" class="col-md-5">
 					<h3>program areas</h3>
@@ -254,7 +255,7 @@
 					<a href="./">view all programs</a>
 				</div><!-- /#welcome-right.col-md-5 -->
 			</div><!-- /.row -->
-			<img src="./_assets_/images/austin-web.jpg" alt="Austin Web">
+			<div id="welcome-img" style="background: url('./_assets_/images/austin-web.jpg') top left no-repeat; background-size: cover"></div>
 		</div><!-- /.container -->
 	</section><!-- /#welcome -->
 
