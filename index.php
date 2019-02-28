@@ -261,10 +261,12 @@
 
 	<section id="news">
 		<div class="container">
-			<h2>news & updates</h2>
-			<a href="./" class="btn">all news</a>
-			<div class="news-links">
-				<div class="news-link">
+			<div class="clearfix">
+				<h2>news & updates</h2>
+				<a href="./" class="btn">all news</a>
+			</div>
+			<div id="news-links">
+				<div class="news-link" style="background: url('./_assets_/images/news1.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -272,7 +274,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-				<div class="news-link">
+				<div class="news-link" style="background: url('./_assets_/images/news2.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -280,7 +282,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-				<div class="news-link">
+				<div class="news-link" style="background: url('./_assets_/images/news3.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -288,7 +290,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-				<div class="news-link">
+				<div class="news-link" style="background: url('./_assets_/images/news4.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -296,7 +298,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-				<div class="news-link">
+				<div class="news-link" style="background: url('./_assets_/images/news5.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -304,7 +306,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-				<div class="news-link">
+				<div class="news-link" style="background: url('./_assets_/images/news6.jpg') center no-repeat; background-size: cover;">
 					<div class="news-content">
 						<span>october 23, 2018</span>
 						<h3>donec ullamcorper nulla</h3>
@@ -312,7 +314,7 @@
 						<a href="./">read more</a>
 					</div><!-- /.news-content -->
 				</div><!-- /.news-link -->
-			</div><!-- /.news-links -->
+			</div><!-- /#news-links -->
 		</div><!-- /.container -->
 	</section><!-- /#news -->
 
