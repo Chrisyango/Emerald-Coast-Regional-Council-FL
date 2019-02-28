@@ -326,16 +326,21 @@
 					<p>
 						auctor fringilla. Cras justo odia, dapibus ac facilisis in, egestas Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.
 					</p>
+					<a href="./" class="btn">all events</a>
 				</div><!-- /#events-left.col-md-7 -->
 				<div id="events-right" class="col-md-5">
-					<h3>program areas</h3>
-					<a href="./">economic development</a>
-					<a href="./">emergency planning</a>
-					<a href="./">environmental planning</a>
-					<a href="./">housing assistance</a>
-					<a href="./">land use planning</a>
-					<a href="./">transportation planning</a>
-					<a href="./">view all programs</a>
+					<a href="./" class="events-link">
+						<span>august 16, 2018</span>
+						ligula nibh adipiscing dapib bibendum lorem ipsum
+					</a>
+					<a href="./" class="events-link">
+						<span>august 16, 2018</span>
+						ligula nibh adipiscing dapib bibendum lorem ipsum
+					</a>
+					<a href="./" class="events-link">
+						<span>august 16, 2018</span>
+						ligula nibh adipiscing dapib bibendum lorem ipsum
+					</a>
 				</div><!-- /#events-right.col-md-5 -->
 			</div><!-- /.row -->
 			<img src="./_assets_/images/calendar.jpg" alt="Calendar">

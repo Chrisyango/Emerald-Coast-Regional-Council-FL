@@ -274,14 +274,14 @@ nav {background-color: #72bd4a;}
 #welcome-right a:last-child {display: inline-block; position: relative; font-size: 14px; line-height: 18px; text-transform: uppercase; margin-top: 40px;}
 #welcome-right a:last-child:after {content: ''; position: absolute; top: 5px; right: -60px; background: url('../images/arrow.png') center no-repeat; background-size: cover; height: 14px; width: 48px;}
 
-#welcome-img {width: 385px; height: 345px; position: absolute; top: 50%; left: 50%; transform: translate(-24.2%, -52.5%);}
+#welcome-img {width: 385px; height: 345px; position: absolute; top: 50%; left: 50%; transform: translate(-24.2%, -52.5%);box-shadow: 0px 10px 2px rgba(0,0,0,.2);}
 
 
 /*--------------- #news ---------------*/
-#news {padding: 43px 0; font-size: 0px;}
+#news {padding: 43px 0 0; font-size: 0px;}
 #news h2 {font-family: 'Coves'; font-size: 60px; line-height: 60px; font-weight: 700; text-transform: uppercase; color: #212124; letter-spacing: 0.02em; float: left; margin: 0;}
 #news .btn {width: 200px; line-height: 40px; margin-top: -7px; background-color: #149b9b; float: right; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
-#news-links {margin: 53px -70px 53px -50px;}
+#news-links {margin: 53px -70px 0px -50px;}
 .news-link {position: relative; display: inline-block; width: 450px; margin: 0 20px 20px 0; text-align:center; height: 320px;}
 .news-link:hover .news-content {display: block;}
 .news-content {position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; background-color: #fff; padding: 59px 0 41px; display: none;}
@@ -291,6 +291,20 @@ nav {background-color: #72bd4a;}
 .news-content a {position: relative; font-size: 14px; font-weight: 700; line-height: 48px; text-transform: uppercase; text-decoration: none; color: #71bc49; display: inline-block; margin-top: -16px;}
 .news-content a:after {content: ''; position: absolute; bottom: -1px; left: -4px; width: 90px; height: 8px; background: url('../images/learn-more.png') center no-repeat; background-size: cover;}
 
+
+/*--------------- #events ---------------*/
+#events {position: relative; padding-top: 50px;}
+#events .container {width: 1390px; max-width: 100%;}
+#events img {position: absolute; top: 50%; left: 50%; transform: translate(-24.15%, -45.2%);box-shadow: 0px 10px 2px rgba(0,0,0,.2);}
+
+#events-left {background-color: #135491;}
+#events-left h2 {font-family: 'Coves'; font-size: 60px; line-height: 60px; font-weight: 700; text-transform: uppercase; color: #fff; letter-spacing: 0.03em;}
+#events-left p {font-size: 18px; line-height: 28px; font-weight: 600; text-transform: capitalize; color: #fff; margin-bottom: 49px;}
+#events-left .btn {font-weight: 700; font-size: 14px; width: 200px; line-height: 40px; background-color: #149b9b; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
+
+#events-right {background-color: #71bc49;}
+#events-right a {font-size: 20px; line-height: 28px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none; margin-bottom: 30px;}
+.events-link span {font-size: 14px; line-height: 26px; font-weight: 700; color: #212124; display: block; margin-bottom: 4px;}
 
 /* -----------------------------------------
 
@@ -410,6 +424,9 @@ nav {background-color: #72bd4a;}
 	#welcome-left {padding: 44px 230px 70px 92px;}
 	#welcome-right {padding: 25px 0 56px 226px;}
 
+	/*--------------- #events ---------------*/
+	#events-left {padding: 201px 290px 165px 92px}
+	#events-right {padding: 218px 0 249px 228px;}
 }
 
 @media only screen and (max-width:991px) {
