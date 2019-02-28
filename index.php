@@ -166,7 +166,7 @@
 				<li>
 					<a href="./">home</a>
 					<ul>
-						<li><img src="./_assets_/images/mega.jpg" alt="Image of a Building"></li>
+						<li class="img-container" style="background: url('./_assets_/images/mega.jpg') center no-repeat;background-size: cover;"></li>
 						<li><a href="./">vulputate fermentum porta</a></li>
 						<li><a href="./">cursus cras elit</a></li>
 						<li><a href="./">quam justo egestas</a></li>

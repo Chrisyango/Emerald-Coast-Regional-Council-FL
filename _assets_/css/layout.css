@@ -198,6 +198,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
+header {position: relative; z-index: 100;}
 #logo {position: absolute; top: 30px; left: 15px; display: inline-block; width: 353px;}
 #right-nav {float: right; padding: 37px 0;}
 #right-nav div {display: inline-block;}
@@ -221,19 +222,9 @@ body{overflow-x:hidden}
 #search button {position: absolute; right: 0; top: 0; width: 60px; height: 40px; background-color: transparent;}
 
 nav {background-color: #72bd4a;}
-#nav {margin: 0 0 0 409px; padding: 0; font-size: 0;}
-#nav>li>ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 40px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 40px;
-    column-count: 4;
-    column-gap: 40px;
-		padding:40px;
-		display: none;
-}
-#nav li {position: relative; display: inline-block;margin: 0; padding: 0;}
-#nav>li:not(:last-child):after {content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 1px; height: 25px; background-color: #fff; opacity: 0.2;}
+#nav {position: relative; margin: 0 0 0 409px; padding: 0; font-size: 0;}
+#nav ul {margin: 0; padding: 0;}
+#nav li {position:relative; display: inline-block;margin: 0; padding: 0;}
 #nav li a,
 #nav li span {font-size: 16px; font-weight: 600; text-transform: capitalize; text-decoration: none; color: #fff; display: inline-block; padding: 14px 15px 16px;}
 #nav>li>ul li{display:inline-block;width:100%}
@@ -241,6 +232,15 @@ nav {background-color: #72bd4a;}
 
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
+
+
+/*--------------- #nav ---------------*/
+#slider {position: relative; height: 973px;}
+#slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -67%); z-index: 51;}
+#slider h1 {font-family: 'Coves'; font-size: 160px; font-weight: 700; color: #fff; line-height: 197.24px; text-transform: uppercase; letter-spacing: 0.033em; padding: 0 32px; text-shadow: 2px 4px 2px rgba(0,0,0,.4);}
+#slider h1 span {font-family: 'Open Sans', 'sans-serif'; font-size: 36px; line-height: 28px; font-weight: 600; text-transform: capitalize; display: block; letter-spacing: 0;}
+#slider h1 span:last-of-type {text-align: right;}
+
 
 /* -----------------------------------------
 
@@ -329,7 +329,31 @@ nav {background-color: #72bd4a;}
 -----------------------------------------*/
 @media only screen and (min-width:992px) {
 
-		#flyout,#nav{display:block!important}
+	/*--------------- #nav ---------------*/
+	#nav>li:not(:last-child):after {content: ''; position: relative; top: 8px; padding: 25px 1px 0 0; background-color: #fff; opacity: 0.2;}
+	#nav>li>ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    column-count: 4;
+		column-gap: 10px;
+		padding: 30px;
+		position: absolute;
+		left: -329px;
+		top: 100%;
+		width: 1129px;
+		height: 273px;
+		background-color: #fff;
+		display: none;
+	}
+	#nav>li:hover>ul {display: block;}
+	#nav>li>ul .img-container {width: 302px; height: 214px;}
+	#nav ul>li>a,
+	#nav ul>li>span {color: #212124; font-size: 16px; line-height: 18px; font-weight: 700;}
+	#nav>li>ul li a {margin: 0; padding: 0;}
+
+	#flyout,#nav{display:block!important}
 
 }
 
