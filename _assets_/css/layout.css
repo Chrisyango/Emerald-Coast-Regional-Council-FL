@@ -219,7 +219,10 @@ body{overflow-x:hidden}
 #search input {height: 40px; padding: 0 60px 0 17px; background-color: #dedede; color: #149b9b; font-weight: 700; font-size: 14px;}
 #search input::placeholder {color: #149b9b; font-weight: 700; font-size: 14px;}
 #search button {position: absolute; right: 0; top: 0; width: 60px; height: 40px; background-color: transparent;}
-.nav>li>ul {
+
+nav {background-color: #72bd4a;}
+#nav {margin: 0 0 0 409px; padding: 0; font-size: 0;}
+#nav>li>ul {
     -moz-column-count: 4;
     -moz-column-gap: 40px;
     -webkit-column-count: 4;
@@ -229,8 +232,12 @@ body{overflow-x:hidden}
 		padding:40px;
 		display: none;
 }
-.nav>li>ul li{display:inline-block;width:100%}
-.nav>li>ul li a{display:block}
+#nav li {position: relative; display: inline-block;margin: 0; padding: 0;}
+#nav>li:not(:last-child):after {content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 1px; height: 25px; background-color: #fff; opacity: 0.2;}
+#nav li a,
+#nav li span {font-size: 16px; font-weight: 600; text-transform: capitalize; text-decoration: none; color: #fff; display: inline-block; padding: 14px 15px 16px;}
+#nav>li>ul li{display:inline-block;width:100%}
+#nav>li>ul li a{display:block}
 
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
