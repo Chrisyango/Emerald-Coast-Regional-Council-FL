@@ -234,12 +234,24 @@ nav {background-color: #72bd4a;}
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 
 
-/*--------------- #nav ---------------*/
+/*--------------- #slider ---------------*/
 #slider {position: relative; height: 973px;}
 #slider .container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -67%); z-index: 51;}
-#slider h1 {font-family: 'Coves'; font-size: 160px; font-weight: 700; color: #fff; line-height: 197.24px; text-transform: uppercase; letter-spacing: 0.033em; padding: 0 32px; text-shadow: 2px 4px 2px rgba(0,0,0,.4);}
+#slider h1 {font-family: 'Coves'; font-size: 160px; font-weight: 700; color: #fff; line-height: 197.24px; text-transform: uppercase; letter-spacing: 0.033em; padding: 0 32px; text-shadow: 2px 2px 2px rgba(0,0,0,.4);}
 #slider h1 span {font-family: 'Open Sans', 'sans-serif'; font-size: 36px; line-height: 28px; font-weight: 600; text-transform: capitalize; display: block; letter-spacing: 0;}
 #slider h1 span:last-of-type {text-align: right;}
+
+
+/*--------------- #quick-links ---------------*/
+#quick-links {width: 700px; position: absolute; bottom: -54px; left: 50%; transform: translateX(-50%); z-index: 51;}
+#quick-links .owl-item {padding: 20px;}
+#quick-links .owl-item:nth-child(1) {background-color: #72bd4a;}
+#quick-links .owl-item:nth-child(2) {background-color: #135591;}
+#quick-links .owl-item:nth-child(3) {background-color: #149b9a;}
+.quick-link {padding: 20px 20px 46px; text-align: center; background-color: #fff; box-shadow: 0px 4px 2px rgba(0,0,0,.4);}
+.quick-link h4 {font-size: 18px; line-height: 26px; font-weight: 700; text-transform: uppercase; margin: 23px 0 17px; text-shadow: 0px 4px 2px rgba(0,0,0,.4);}
+.quick-link a {position:relative; top: 0; left: 0; font-size: 14px; line-height: 18px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: #72bd4a;}
+.quick-link a:hover:after {content: ''; position: absolute; bottom: -17px; left: 0px; background: url('../images/learn-more.png') center no-repeat; background-size: cover; height: 8px; width: 90px;}
 
 
 /* -----------------------------------------

@@ -290,7 +290,8 @@
 				1200: {
 					items: quickLinkItem(3),
 					loop: false,
-					nav: false
+					nav: false,
+					margin: 20
 				}
 			}
 		});

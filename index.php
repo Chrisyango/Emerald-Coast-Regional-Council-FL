@@ -219,11 +219,11 @@
 			<a href="./">learn more</a>
 		</div><!--/.quick-link-link-->
 		<div class="quick-link">
-			<h4>florida - alabama tpo</h4>
+			<h4>okaloosa - walton tpo</h4>
 			<a href="./">learn more</a>
 		</div><!--/.quick-link-link-->
 		<div class="quick-link">
-			<h4>florida - alabama tpo</h4>
+			<h4>bay county tpo</h4>
 			<a href="./">learn more</a>
 		</div><!--/.quick-link-->
 	</div><!-- /#quick-links.owl-carousel -->
