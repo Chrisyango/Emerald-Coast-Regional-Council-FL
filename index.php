@@ -357,13 +357,13 @@
 <footer>
 	<div class="container">
 		<div id="footer-left">
-			<div>&copy; 2018 wfrpc 4081 e olive road, suite a, pensacola, fl 32514</div> <div>33 Resoluci<span style="text-transform: lowercase;">&Oacute;</span>n STE 701-B San Juan, Puerto Rico 00920-2707</div>
+			<div>&copy; <span>2018 wfrpc</span> 4081 e olive road, suite a, pensacola, fl 32514</div>
+			<div class="social-links">
+				<a href="./" class="fa fa-instagram"></a>
+				<a href="./" class="fa fa-youtube"></a>
+				<a href="./" class="fa fa-facebook-f"></a>
+			</div>
 		</div><!-- /#footer-left -->
-		<div class="social-links">
-			<a href="./" class="fa fa-youtube"></a>
-			<a href="./" class="fa fa-facebook-f"></a>
-			<a href="./" class="fa fa-instagram"></a>
-		</div>
 		<div id="footer-right">
 			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a>, The Government Website Experts</span> <a href="./">login</a> 
 		</div> <!-- /#footer-right -->
