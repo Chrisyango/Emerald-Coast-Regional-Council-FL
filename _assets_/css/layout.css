@@ -174,7 +174,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 .floating-alert{position:fixed;z-index:99999;bottom:10px;margin:0;right:10px;border:3px solid #fff;background:#000;background:rgba(0,0,0,.9);box-shadow:0 0 10px rgba(0,0,0,.2);color:#fff;padding:30px;font-size:14px;width:350px;}
-.floating-alert h1{color:#ffc140;margin:0 0 10px;font-family:sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
+.floating-alert h4{color:#ffc140;margin:0 0 10px;font-family:sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
 .floating-alert .btn{padding:8px 10px;margin:20px 0 0 0!important}
 .floating-alert .close{padding:0;background:none!important;color:#fff!important;opacity:1;margin-right:20px}
 
@@ -227,7 +227,7 @@ nav {background-color: #72bd4a;}
 #nav li {position:relative; display: inline-block;margin: 0; padding: 0;}
 #nav li a,
 #nav li span {font-size: 16px; font-weight: 600; text-transform: capitalize; text-decoration: none; color: #fff; display: inline-block; padding: 14px 15px 16px;}
-#nav>li>ul li{display:inline-block;width:100%}
+#nav>li>ul li{width:100%}
 #nav>li>ul li a{display:block}
 
 
@@ -429,11 +429,11 @@ footer .social-links {margin: 0 0 0 25px;}
 	#nav>li:not(:last-child):after {content: ''; position: relative; top: 8px; padding: 25px 1px 0 0; background-color: #fff; opacity: 0.2;}
 	#nav>li>ul {
     -moz-column-count: 4;
-    -moz-column-gap: 10px;
+    -moz-column-gap: 30px;
     -webkit-column-count: 4;
-    -webkit-column-gap: 10px;
+    -webkit-column-gap: 30px;
     column-count: 4;
-		column-gap: 10px;
+		column-gap: 30px;
 		padding: 30px;
 		position: absolute;
 		left: -329px;
@@ -443,11 +443,15 @@ footer .social-links {margin: 0 0 0 25px;}
 		background-color: #fff;
 		display: none;
 	}
+	/* #nav>li>ul li {width: calc(827px / 4); float: left; margin-right: 30px;} */
 	#nav>li:hover>ul {display: block;}
-	#nav>li>ul .img-container {width: 302px; height: 214px;}
+	#nav>li>ul .img-container {height: 213px;}
 	#nav ul>li>a,
 	#nav ul>li>span {color: #212124; font-size: 16px; line-height: 18px; font-weight: 700;}
-	#nav>li>ul li a {margin: 0; padding: 0;}
+	#nav>li>ul li a {margin: 11px 0 0; padding: 0;}
+
+	#nav ul ul li a {font-size: 14px; color: #149b9b}
+
 
 	#flyout,#nav{display:block!important}
 
@@ -504,7 +508,7 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	.floating-alert{width:auto;right:0;left:0;border:0;bottom:0;border-radius:0;padding-left:15px;padding-right:15px}
 	.floating-alert{font-size:12px}
-	.floating-alert h1{margin-bottom:10px;font-size:14px}
+	.floating-alert h4{margin-bottom:10px;font-size:14px}
 	.floating-alert .btn{font-size:10px;padding:7px 12px!important}
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
