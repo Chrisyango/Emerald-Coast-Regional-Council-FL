@@ -190,7 +190,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 body{overflow-x:hidden}
-.container {position: relative; width: 1320px; max-width: 100%;}
+.container {width: 1320px; max-width: 100%;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #nav-toggle,
 .toggle,
@@ -221,8 +221,8 @@ header {position: relative; z-index: 100;}
 #search input::placeholder {color: #149b9b; font-weight: 700; font-size: 14px;}
 #search button {position: absolute; right: 0; top: 0; width: 60px; height: 40px; background-color: transparent;}
 
-nav {background-color: #72bd4a;}
-#nav {position: relative; margin: 0 0 0 409px; padding: 0; font-size: 0;}
+nav {background-color: #72bd4a; width: 100%;}
+#nav {position: relative; padding: 0; font-size: 0;}
 #nav ul {margin: 0; padding: 0;}
 #nav li {position:relative; display: inline-block;margin: 0; padding: 0;}
 #nav li a,
@@ -423,9 +423,12 @@ footer .social-links {margin: 0 0 0 25px;}
 #media queries
 
 -----------------------------------------*/
+
 @media only screen and (min-width:992px) {
 
 	/*--------------- #nav ---------------*/
+	header {position: fixed; top: 0; left: 0; background-color: #fff; width: 100%;}
+	#nav {margin: 0 176px 0 0; text-align: right;}
 	#nav>li:not(:last-child):after {content: ''; position: relative; top: 8px; padding: 25px 1px 0 0; background-color: #fff; opacity: 0.2;}
 	#nav>li>ul {
     -moz-column-count: 4;
@@ -442,6 +445,7 @@ footer .social-links {margin: 0 0 0 25px;}
 		height: 273px;
 		background-color: #fff;
 		display: none;
+		text-align: left;
 	}
 	/* #nav>li>ul li {width: calc(827px / 4); float: left; margin-right: 30px;} */
 	#nav>li:hover>ul {display: block;}
@@ -465,6 +469,16 @@ footer .social-links {margin: 0 0 0 25px;}
 	#events-right {padding: 218px 0 249px 228px;}
 }
 
+@media only screen and (max-width:1280px) {
+
+	/*--------------- #nav ---------------*/
+	#logo {top: 30px; width: 300px;}
+	#right-nav {padding: 30px 0;}
+	#nav {margin: 0;}
+	#nav li a {font-size: 15px;}
+
+}
+
 @media only screen and (max-width:991px) {
 
 	/* rz form tables - without page scope this targets editforms and makes
@@ -475,15 +489,27 @@ footer .social-links {margin: 0 0 0 25px;}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
 
+
+	/*--------------- #nav ---------------*/
+	#top-nav {height: 140px; border-bottom: 40px solid #72bd4a; margin: 0 -15px;}
+
+	#right-nav #search {display: none;}
+	nav {margin-top: -1px;}
+	#toggles{float:right}
+	#search{width:calc(100% - 30px); position: absolute; top: calc(100% + 15px); right: 15px;}
+	#search input{width:100%}
+	#search-toggle-mobile,
+	#nav-toggle{line-height:45px;width:45px;text-align:center;border:1px solid rgba(0,0,0,.15);cursor:pointer;font-size:20px;color:#000;border-radius:4px;margin-left:5px;margin-top:20px}
+
 	.toggle,
 	.toggle2,
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
 	#nav{display:none}
-	#nav li{float:none;display:block}
+	#nav li{float:none;display:block;}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
-	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
+	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;width: 100%;}
+	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2); display: none;}
 	#nav li:hover > ul{display:none}
 	#nav ul a,
 	#nav ul span{width:100%}
@@ -519,7 +545,12 @@ footer .social-links {margin: 0 0 0 25px;}
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+
+	/*--------------- #nav ---------------*/
+	#logo {width: 200px; top: 25px;}
+	#top-nav {height: 100px; border-bottom: 30px solid #72bd4a;}
+}
 
 @media print {
 	.nav-wrap,

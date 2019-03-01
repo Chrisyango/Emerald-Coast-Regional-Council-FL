@@ -147,7 +147,7 @@
 						</ul>
 					</li>
 				</ul><!--/#translation-links-->
-				<div class="social-links">
+				<div class="social-links hidden-sm hidden-xs">
 					<a href="./" class="fa fa-youtube"></a>
 					<a href="./" class="fa fa-instagram"></a>
 					<a href="./" class="fa fa-facebook-f"></a>
@@ -161,8 +161,9 @@
 				</div><!-- /#search -->
 			</div><!-- /#right-nav -->
 		</div><!-- /#top-nav.clearfix -->
-		
-		<nav class="fillLeft fillRight withPadding">
+	</div><!-- /.container -->
+	<nav>
+		<div class="container">
 			<ul id="nav">
 				<li>
 					<a href="./">home</a>
@@ -197,8 +198,9 @@
 				<li><a href="./">how do i?...</a></li>
 				<li><a href="./">contact us</a></li>
 			</ul> <!-- /#nav -->
-		</nav>
-	</div><!-- /.container -->
+		</div>
+	</nav>
+			
 </header>
 
 <section id="slider">
