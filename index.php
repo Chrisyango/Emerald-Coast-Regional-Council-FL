@@ -212,7 +212,7 @@
 		<li style="background: url('./_assets_/images/hero5.jpg') center no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
 
-	<div class="container">
+	<div class="container text-center">
 		<h1><span>working to preserve and enhance the</span> quality of life <span>in northwest Florida.</span></h1>
 	</div><!-- /.container -->
 
@@ -245,14 +245,14 @@
 	<section id="welcome">
 		<div class="container">
 			<div class="row">
-				<div id="welcome-left" class="col-md-7">
+				<div id="welcome-left" class="col-md-7 equal">
 					<h2>welcome to <span>the emerald coast regional council</span></h2>
 					<p>
 						The ECRC is one of 10 Regional Planning Councils created by the state of Florida to provide planning, economic development, and technical assistance to local governments. The ECRC supports a seven-county
 					</p>
 					<a href="./" class="btn">learn more</a>
 				</div><!-- /#welcome-left.col-md-7 -->
-				<div id="welcome-right" class="col-md-5">
+				<div id="welcome-right" class="col-md-5 equal">
 					<h3>program areas</h3>
 					<a href="./">economic development</a>
 					<a href="./">emergency planning</a>
@@ -450,6 +450,7 @@
 <script src="_assets_/plugins/social-feed/js/jquery.socialfeed.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="_assets_/plugins/matchHeight/jquery.matchHeight.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
