@@ -254,9 +254,15 @@ nav {background-color: #72bd4a;}
 .quick-link a:hover:after {content: ''; position: absolute; bottom: -17px; left: 0px; background: url('../images/learn-more.png') center no-repeat; background-size: cover; height: 8px; width: 90px;}
 
 
-/*--------------- #video-player ---------------*/
-#video-player {position: relative; height: 700px;}
+/*--------------- #video-wrap ---------------*/
+#video-player {position: relative; height: 700px; width: 100%; overflow: hidden;}
+#video-wrap {position: absolute; top: 50%; left: 50%; transform:translate(-50%, -37.5%); width: 824px; max-width: 100%;}
+.YTPOverlay {cursor: pointer;}
+.inlinePlayButton {border-radius: 0; background-color: #82c55b; opacity: 1; width: 102px; height: 102px; line-height: 102px; top: -17px; font-size: 36px;}
 
+#video-styling {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-44.5%, -47.2%); width: 824px; max-width: 100%; height: 463.5px; background-color: #135591;}
+#video-styling:before {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-51.8%, -46.7%); width: 100%; height: 100%; background-color: #149b9a; z-index: -1;}
+#video-styling:after {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-53.7%, -43.4%); width: 100%; height: 100%; background-color: #72bd4a;}
 
 /*--------------- #welcome ---------------*/
 #welcome {padding: 20px 0;}
@@ -283,8 +289,8 @@ nav {background-color: #72bd4a;}
 #news .btn {width: 200px; line-height: 40px; margin-top: -7px; background-color: #149b9b; float: right; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
 #news-links {margin: 53px -70px 0px -50px;}
 .news-link {position: relative; display: inline-block; width: 450px; margin: 0 20px 20px 0; text-align:center; height: 320px;}
-.news-link:hover .news-content {display: block;}
-.news-content {position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; background-color: #fff; padding: 59px 0 41px; display: none;}
+.news-link:hover .news-content {opacity: 1;}
+.news-content {position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; background-color: #fff; padding: 59px 0 41px; opacity: 0; transition: 0.3s all;}
 .news-content span {font-size: 12px; line-height: 18px; font-weight: 700; color: #149b9b; text-transform: uppercase; display: block;}
 .news-content h3 {font-family: 'Coves'; font-size: 21px; line-height: 48px; font-weight: 700; letter-spacing: 0.05em; color: #212124; text-transform: uppercase; margin: 12px 0;}
 .news-content p {font-size: 18px; font-weight: 600px; line-height: 24px; text-transform: capitalize; color: #a2c0da;}

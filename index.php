@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="_assets_/css/jquery.mb.YTPlayer.min.css" media="all" type="text/css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -231,7 +232,12 @@
 
 <main id="main">
 	<section id="video-player">
-		video player here yo
+		<div id="video-styling"></div>
+		<div id="video-wrap" style="background: url('./_assets_/images/hero3.jpg') center no-repeat; background-size: cover;">
+			<div id="video-bg" class="player"
+				data-property="{videoURL:'https://www.youtube.com/watch?v=Ghn-B3jmuSA',containment:'self',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1,showControls:false}">
+			</div>
+		</div>
 	</section>
 
 	<section id="welcome">
@@ -434,6 +440,7 @@
 
 
 <script src="_assets_/js/jquery.min.js"></script>
+<script src="_assets_/js/jquery.mb.YTPlayer.min.js"></script>
 <script src="_assets_/plugins/social-feed/bower_components/codebird-js/codebird.js"></script>
 <script src="_assets_/plugins/social-feed/bower_components/doT/doT.min.js"></script>
 <script src="_assets_/plugins/social-feed/bower_components/moment/min/moment.min.js"></script>

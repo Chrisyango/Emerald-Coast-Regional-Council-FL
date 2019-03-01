@@ -308,6 +308,13 @@
 	});
 
 	$window.ready(function(){
+
+		// Video Background
+		if ( typeof $.fn.YTPlayer !== "undefined"){
+			$(function(){
+				$("#video-bg").YTPlayer();
+			});
+		}
 		
 		// Fill sides script
 		function fillSide(){
