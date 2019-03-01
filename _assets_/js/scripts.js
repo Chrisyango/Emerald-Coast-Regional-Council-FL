@@ -375,7 +375,7 @@
 					// Facebook
 					facebook:{
 							accounts: ['@spanishforklibrary'],
-							limit: 20,
+							limit: 1,
 							access_token: 'EAAMkcCLFBs8BAEnpzLa3fg98gku0FhSwmvKZAujQ5m6RLRlHnIUnPaAexISWwIMA4VEoHuFUEWufVXIsasnQFRaDys2613NJUqt5sE5FqAr1sYrgnLZBPgeDmP8cZAkv7sFZBQOxUdrz2B7udHItF8tNMWiZC5iJfqkmWWK06BQZDZD'
 					},
 					template: "_assets_/templates/template.html",

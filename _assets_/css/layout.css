@@ -306,6 +306,16 @@ nav {background-color: #72bd4a;}
 #events-right a {font-size: 20px; line-height: 28px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none; margin-bottom: 30px;}
 .events-link span {font-size: 14px; line-height: 26px; font-weight: 700; color: #212124; display: block; margin-bottom: 4px;}
 
+
+/*--------------- #facebook ---------------*/
+#social-feed {width: 888px; margin: 61px auto 63px;}
+.social-feed-element i {font-size: 64px; margin: 10px 40px 0 0;}
+.social-feed-text {font-size: 24px; line-height: 36px; font-weight: 600; color: #212124; margin-bottom: 12px}
+.social-feed-text a {text-decoration: none; color: #71bc49;}
+.time-date {font-size: 16px; line-height: 34px; font-weight: 600; color: #149b9b;}
+.time-date a {color: #149b9b;}
+
+
 /* -----------------------------------------
 
 #inner

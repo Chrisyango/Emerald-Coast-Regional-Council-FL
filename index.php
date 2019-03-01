@@ -348,7 +348,9 @@
 	</section><!-- /#events -->
 
 	<section id="facebook-posts">
-		<div id="social-feed"></div>
+		<div class="container">
+			<div id="social-feed"></div>
+		</div>
 	</section><!-- /#facebook-posts -->
 </main>
 
