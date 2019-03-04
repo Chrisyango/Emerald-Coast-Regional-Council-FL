@@ -285,10 +285,12 @@ nav {background-color: #72bd4a; width: 100%;}
 
 /*--------------- #news ---------------*/
 #news {padding: 43px 0 0; font-size: 0px;}
+#news .container {width: 1420px; max-width: 100%;}
 #news h2 {font-family: 'Coves'; font-size: 60px; line-height: 60px; font-weight: 700; text-transform: uppercase; color: #212124; letter-spacing: 0.02em; float: left; margin: 0;}
 #news .btn {width: 200px; line-height: 40px; margin-top: -7px; background-color: #149b9b; float: right; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
-#news-links {margin: 53px -70px 0px -50px;}
-.news-link {position: relative; display: inline-block; width: 450px; margin: 0 20px 20px 0; text-align:center; height: 320px;}
+#news-links {margin-top: 53px;}
+.news-link {position: relative; display: inline-block; width: 32.37410071942446%; margin: 0 1.4388489208633095% 20px 0; text-align:center; height: 320px;}
+.news-link:nth-child(3n) {margin-right: 0;}
 .news-link:hover .news-content {opacity: 1;}
 .news-content {position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; background-color: #fff; padding: 59px 0 41px; opacity: 0; transition: 0.3s all;}
 .news-content span {font-size: 12px; line-height: 18px; font-weight: 700; color: #149b9b; text-transform: uppercase; display: block;}
@@ -301,15 +303,15 @@ nav {background-color: #72bd4a; width: 100%;}
 /*--------------- #events ---------------*/
 #events {position: relative; padding-top: 50px;}
 #events .container {width: 1390px; max-width: 100%;}
-#events img {position: absolute; top: 50%; left: 50%; transform: translate(-24.15%, -45.2%);box-shadow: 0px 10px 2px rgba(0,0,0,.2);}
+#events img {position: absolute; top: 50%; left: 50%; transform: translate(-24.15%, -38%);box-shadow: 0px 10px 2px rgba(0,0,0,.2);}
 
-#events-left {background-color: #135491; padding: 201px 15px 165px}
+#events-left {background-color: #135491; padding: 201px 230px 165px 92px}
 #events-left h2 {font-family: 'Coves'; font-size: 60px; line-height: 60px; font-weight: 700; text-transform: uppercase; color: #fff; letter-spacing: 0.03em;}
 #events-left p {font-size: 18px; line-height: 28px; font-weight: 600; text-transform: capitalize; color: #fff; margin-bottom: 49px;}
 #events-left .btn {font-weight: 700; font-size: 14px; width: 200px; line-height: 40px; background-color: #149b9b; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
 
-#events-right {background-color: #71bc49; padding: 218px 15px 249px;}
-#events-right a {font-size: 20px; line-height: 28px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none; margin-bottom: 30px;}
+#events-right {background-color: #71bc49; padding: 218px 15px 159px 228px;}
+#events-right a {font-size: 20px; line-height: 28px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none; margin-bottom: 30px; display: block;}
 .events-link span {font-size: 14px; line-height: 26px; font-weight: 700; color: #212124; display: block; margin-bottom: 4px;}
 
 
@@ -464,9 +466,9 @@ footer .social-links {margin: 0 0 0 25px;}
 	#welcome-left {padding: 44px 230px 70px 92px;}
 	#welcome-right {padding: 25px 0 56px 226px;}
 
-	/*--------------- #events ---------------*/
-	#events-left {padding: 201px 290px 165px 92px}
-	#events-right {padding: 218px 0 249px 228px;}
+	/*--------------- #news ---------------*/
+	#news .clearfix {padding: 0 50px;}
+
 }
 
 @media only screen and (max-width:1440px) {
@@ -499,6 +501,25 @@ footer .social-links {margin: 0 0 0 25px;}
 	#welcome-right a {font-size: 18px;}
 	#welcome-right a:last-child {margin-top: 25px;}
 
+	/*--------------- #news ---------------*/
+	#news h2 {font-size: 48px;}
+	#news .btn {font-size: 13px; width: 170px; line-height: 30px;}
+	.news-link {width: 49.28057554%;}
+	.news-link:nth-child(3n) {margin-right: 1.4388489208633095%;}
+	.news-link:nth-child(2n) {margin-right: 0;}
+
+	/*--------------- #events ---------------*/
+	#events img {transform: translate(-32.15%, -61.4%); width: 325px;}
+
+	#events-left {padding: 201px 230px 165px 60px}
+	#events-left h2 {font-size: 48px;}
+	#events-left h2 {font-size: 48px; margin-bottom: 20px;}
+	#events-left p {font-size: 16px; margin-bottom: 30px;}
+	#events-left .btn {font-size: 13px; width: 170px; line-height: 30px;}
+
+	#events-right {padding-left: 180px;}
+	#events-right a {font-size: 18px;}
+
 }
 
 @media only screen and (max-width:1040px) {
@@ -517,7 +538,7 @@ footer .social-links {margin: 0 0 0 25px;}
 	/* rz form tables - without page scope this targets editforms and makes
 	 * editing confusing
 	 */
-	 .floating-share-btn {top: 80%;}
+	 .floating-share-btn {top: 75%;}
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
@@ -571,6 +592,15 @@ footer .social-links {margin: 0 0 0 25px;}
 	#welcome-img {transform: translate(-5.2%, -36.5%);}
 	#welcome-right {padding-left: 15px;}
 
+	/*--------------- #events ---------------*/
+	#events-left {padding: 15px 15px 130px;}
+	#events-left h2 {margin-top: 0;}
+
+	#events-right {padding: 130px 15px 15px;}
+
+	/*--------------- #social-feed ---------------*/
+	#social-feed {width: auto;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -592,6 +622,15 @@ footer .social-links {margin: 0 0 0 25px;}
 	/*--------------- #welcome ---------------*/
 	#welcome-img {width: 200px; height: 250px; transform: translate(8.8%, -49.5%);}
 
+	/*--------------- #news ---------------*/
+	#news h2 {float: none;}
+	#news .btn {font-size: 13px; width: 170px; line-height: 30px; float: none; margin-top: 15px;}
+	#news-links {margin-top: 30px;}
+	.news-link {width: 100%; margin-right: 0;}
+
+	/*--------------- #events ---------------*/
+	#events img {transform: translate(-20.15%, -53.4%); width: 260px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -610,6 +649,9 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome-img {display: none;}
+
+	/*--------------- #events ---------------*/
+	#events img {transform: translate(-50.15%, -53.4%); width: 240px;}
 	
 }
 

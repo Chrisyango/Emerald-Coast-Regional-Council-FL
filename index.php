@@ -329,14 +329,14 @@
 	<section id="events">
 		<div class="container">
 			<div class="row">
-				<div id="events-left" class="col-md-7">
+				<div id="events-left" class="col-md-7 equal">
 					<h2>latest events</h2>
 					<p>
 						auctor fringilla. Cras justo odia, dapibus ac facilisis in, egestas Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum.
 					</p>
 					<a href="./" class="btn">all events</a>
 				</div><!-- /#events-left.col-md-7 -->
-				<div id="events-right" class="col-md-5">
+				<div id="events-right" class="col-md-5 equal">
 					<a href="./" class="events-link">
 						<span>august 16, 2018</span>
 						ligula nibh adipiscing dapib bibendum lorem ipsum
