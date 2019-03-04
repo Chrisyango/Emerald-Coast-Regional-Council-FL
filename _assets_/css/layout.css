@@ -204,7 +204,7 @@ header {position: relative; z-index: 100;}
 #right-nav div {display: inline-block;}
 
 .social-links {margin-right: 16px;}
-.social-links a {width: 36px; line-height: 36px; text-align: center; border-radius: 50%; margin-left: 1.5px; background-color: #135591; color:#fff;}
+.social-links a {width: 36px; line-height: 36px; text-align: center; border-radius: 50%; margin-left: 1.5px; background-color: #135591; color:#fff; text-decoration: none;}
 
 .translation-links{padding:0;margin:0;display:inline-block}
 .translation-links span{font-size:16px;cursor:pointer;display:block;margin: 0 24px;color:#149b9b; font-size: 14px; font-weight: 700; text-transform: uppercase;}
@@ -305,18 +305,19 @@ nav {background-color: #72bd4a; width: 100%;}
 #events .container {width: 1390px; max-width: 100%;}
 #events img {position: absolute; top: 50%; left: 50%; transform: translate(-24.15%, -38%);box-shadow: 0px 10px 2px rgba(0,0,0,.2);}
 
-#events-left {background-color: #135491; padding: 201px 230px 165px 92px}
+#events-left {background-color: #135491; padding: 201px 230px 193px 92px}
 #events-left h2 {font-family: 'Coves'; font-size: 60px; line-height: 60px; font-weight: 700; text-transform: uppercase; color: #fff; letter-spacing: 0.03em;}
 #events-left p {font-size: 18px; line-height: 28px; font-weight: 600; text-transform: capitalize; color: #fff; margin-bottom: 49px;}
 #events-left .btn {font-weight: 700; font-size: 14px; width: 200px; line-height: 40px; background-color: #149b9b; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
 
-#events-right {background-color: #71bc49; padding: 218px 15px 159px 228px;}
+#events-right {background-color: #71bc49; padding: 218px 15px 189px 228px;}
 #events-right a {font-size: 20px; line-height: 28px; font-weight: 700; color: #fff; text-transform: capitalize; text-decoration: none; margin-bottom: 30px; display: block;}
+#events-right a:last-child {margin: 0;}
 .events-link span {font-size: 14px; line-height: 26px; font-weight: 700; color: #212124; display: block; margin-bottom: 4px;}
 
 
 /*--------------- #facebook ---------------*/
-#social-feed {width: 888px; margin: 61px auto 63px;}
+#social-feed {width: 888px; max-width: 100%; margin: 61px auto 63px;}
 .social-feed-element i {font-size: 64px; margin: 10px 40px 0 0;}
 .social-feed-text {font-size: 24px; line-height: 36px; font-weight: 600; color: #212124; margin-bottom: 12px}
 .social-feed-text a {text-decoration: none; color: #71bc49;}
@@ -336,7 +337,7 @@ footer .social-links {margin: 0 0 0 25px;}
 #footer-right {float: right; margin-top: 6px;}
 #footer-right a,
 #footer-right span {position: relative; font-size: 14px; line-height: 25.5px; font-weight: 700; text-transform: uppercase; color: #fff; padding-right: 15px;}
-#footer-right span:after {content: ''; position: absolute; top: 0; right: 0; width: 1px; height: 50px; background-color: #fff; opacity: 0.2;}
+#footer-right span:after {content: ''; position: absolute; top: -2px; right: 0; width: 1px; height: 25px; background-color: #fff; opacity: 0.2;}
 #footer-right a {letter-spacing: 0.05em; text-decoration: none; padding: 0; margin-left: 10px;}
 #footer-right span a {font-family: 'Roboto'; text-transform: lowercase; letter-spacing: 0; margin: 0; padding: 0;}
 
@@ -520,6 +521,10 @@ footer .social-links {margin: 0 0 0 25px;}
 	#events-right {padding-left: 180px;}
 	#events-right a {font-size: 18px;}
 
+	/*--------------- #footer ---------------*/
+	#footer-left,
+	#footer-right {float: none;}
+
 }
 
 @media only screen and (max-width:1040px) {
@@ -588,18 +593,29 @@ footer .social-links {margin: 0 0 0 25px;}
 	#slider h1 span:last-child {bottom: 10px;}
 
 	/*--------------- #welcome ---------------*/
-	#welcome-left {padding: 44px 15px 70px;}
+	#welcome {padding: 0;}
+	#welcome-left {padding: 15px 15px 70px;}
+	#welcome-left h2 {margin-top: 0;}
 	#welcome-img {transform: translate(-5.2%, -36.5%);}
-	#welcome-right {padding-left: 15px;}
+	#welcome-right {padding-left: 15px; padding-bottom: 15px;}
+
+	/*--------------- #news ---------------*/
+	#news {padding-top: 15px;}
 
 	/*--------------- #events ---------------*/
+	#events {padding-top: 10px;}
 	#events-left {padding: 15px 15px 130px;}
 	#events-left h2 {margin-top: 0;}
 
 	#events-right {padding: 130px 15px 15px;}
 
 	/*--------------- #social-feed ---------------*/
-	#social-feed {width: auto;}
+	.social-feed-element i {font-size: 48px;}
+	.social-feed-text {font-size: 20px; line-height: normal;}
+	.time-date {font-size: 14px;}
+
+	/*--------------- footer ---------------*/
+	footer {padding: 15px;}
 
 }
 
@@ -630,6 +646,9 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	/*--------------- #events ---------------*/
 	#events img {transform: translate(-20.15%, -53.4%); width: 260px;}
+
+	/*--------------- footer ---------------*/
+	#footer-left div {display: block; margin: 5px 0;}
 
 }
 
