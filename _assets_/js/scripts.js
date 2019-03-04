@@ -276,22 +276,23 @@
 			return (quickLinkCount >= num ? num : quickLinkCount);
 		}
 		$("#quick-links").owlCarousel({
-			loop: true,
+			loop: quickLinkCount > 1 ? true : false,
 			responsiveClass: true,
 			nav: true,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+			margin: 20,
 			responsive: {
 				0: {
 					items: quickLinkItem(1),
 				},
 				600: {
 					items: quickLinkItem(2),
+					
 				},
 				1200: {
 					items: quickLinkItem(3),
 					loop: false,
 					nav: false,
-					margin: 20
 				}
 			}
 		});
@@ -308,6 +309,15 @@
 	});
 
 	$window.ready(function(){
+
+		$('#video-player').prepend('<img class="btn-scroll" src="_assets_/images/scroll.png" alt="Scroll button">');
+
+		$('#video-player .btn-scroll').click(function(){
+			$('html, body').stop();
+		    $('html, body').animate({
+		        scrollTop: $("#welcome").offset().top - 180
+		    }, 1500);
+		});
 
 		// Video Background
 		if ( typeof $.fn.YTPlayer !== "undefined"){

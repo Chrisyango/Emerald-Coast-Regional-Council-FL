@@ -234,10 +234,12 @@
 
 <main id="main">
 	<section id="video-player">
-		<div id="video-styling"></div>
-		<div id="video-wrap" style="background: url('./_assets_/images/hero3.jpg') center no-repeat; background-size: cover;">
-			<div id="video-bg" class="player"
-				data-property="{videoURL:'https://www.youtube.com/watch?v=Ghn-B3jmuSA',containment:'self',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1,showControls:false}">
+		<div class="container">
+			<div id="video-wrap" >
+				<div id="video-color"></div>
+				<div id="video-bg" style="background: url('./_assets_/images/hero3.jpg') center no-repeat; background-size: cover;" class="player"
+					data-property="{videoURL:'https://www.youtube.com/watch?v=Ghn-B3jmuSA',containment:'self',startAt:0,mute:false,autoPlay:false,loop:true,opacity:1,showControls:false}">
+				</div>
 			</div>
 		</div>
 	</section>
