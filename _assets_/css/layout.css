@@ -380,7 +380,7 @@ footer .social-links {margin:0 0 0 25px}
 #breadcrumbs a:after {content:'\f105';font-family:'FontAwesome';margin:0 17px 0 6px}
 #breadcrumbs i{font-size:13px;margin:0 4px}
 
-#page-title {font-family:'Coves';font-size:60px;font-weight:700;text-transform:uppercase;color:#2b2c30;text-shadow:0px 5px 0px rgba(0,0,0,.1);margin:17px 0 0px;letter-spacing:0.03em}
+#page-title {font-family:'Coves';font-size:60px;font-weight:700;text-transform:uppercase;color:#2b2c30;text-shadow:0px 6px 0px rgba(18, 105, 162, 0.2);margin:17px 0 0px;letter-spacing:0.03em}
 #post {font-size:16px;line-height:24px;font-weight:600}
 #post p {margin:24px 0 33px}
 #post ul {margin:0;padding:0 0 0 40px}
@@ -482,10 +482,11 @@ footer .social-links {margin:0 0 0 25px}
 	#flyout-wrap {padding:53px 0px 41px}
 	#flyout,#nav{display:block!important}
 	#flyout li {padding:0 41px}
-	#flyout li:hover {background-color:#00aaab;box-shadow:0px 4px 2px rgba(0,0,0,.2)}
+	#flyout li:hover {background-color:#00aaab;box-shadow: 0px 7px 0px 0px rgba(19, 84, 145, 0.2)}
 	#flyout-toggle {display:none}
 	.toggle-children {display:none}
 	#inner-events {padding:0 22px}
+	
 
 	/*--------------- #entry ---------------*/
 	#dept-freeform main .container,
