@@ -354,17 +354,14 @@ footer .social-links {margin: 0 0 0 25px;}
 #inner
 
 -----------------------------------------*/
-#freeform main .container {padding-bottom: 60px;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 464px; margin: 0;}
 
 /*--------------- #flyout ---------------*/
-#side-content {background-color: #1369a2;margin: 70px -21px 0 -1px;}
-#flyout-wrap {padding: 53px 0px;}
+#side-content {background-color: #1369a2;}
 #flyout{margin:0;padding:0;}
-#flyout li{margin:0;display:block;position:relative; padding: 0 41px;z-index: 51;}
-#flyout li:hover {background-color: #00aaab; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
+#flyout li{margin:0;display:block;position:relative; z-index: 51;}
 #flyout a,
 #flyout span{font-size: 18px; font-weight: 600; color: #fff; text-transform: capitalize; text-decoration:none;display:block; margin-left: 2px; padding: 18px 0 19px; border-bottom: 1px solid rgba(255,255,255,.2)}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#00aaab}
@@ -375,7 +372,6 @@ footer .social-links {margin: 0 0 0 25px;}
 #flyout-header {font-size: 24px; letter-spacing: 0.05em; font-weight: 700; text-transform: uppercase; color: #fff; line-height: 28px;display: block; margin-bottom: 24px;padding: 0 41px;}
 
 /*--------------- #entry ---------------*/
-#entry {margin: 64px 0 0 -12px; padding-right: 61px;}
 #breadcrumbs{font-size:13px;text-transform:capitalize}
 #breadcrumbs p{font-size: 14px; font-weight: 700; text-transform: uppercase; margin:0; color: #00aaab;}
 #breadcrumbs a{text-decoration:none; color: #68686a;}
@@ -488,10 +484,18 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	#nav ul ul li a {font-size: 14px; color: #149b9b}
 
-
+	/*--------------- #flyout ---------------*/
+	#side-content {margin: 70px -21px 0 -1px;}
+	#flyout-wrap {padding: 53px 0px;}
 	#flyout,#nav{display:block!important}
+	#flyout li {padding: 0 41px;}
+	#flyout li:hover {background-color: #00aaab; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
 	#flyout-toggle {display: none;}
 	.toggle-children {display: none;}
+
+	/*--------------- #entry ---------------*/
+	#freeform main .container {padding-bottom: 60px;}
+	#entry {margin: 64px 0 0 -12px; padding-right: 61px;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome-left {padding: 44px 230px 70px 92px;}
@@ -499,6 +503,7 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	/*--------------- #news ---------------*/
 	#news .clearfix {padding: 0 50px;}
+
 
 }
 
@@ -615,14 +620,18 @@ footer .social-links {margin: 0 0 0 25px;}
 	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
+	#side-content {margin: 0 -15px; padding: 0 15px;}
+	#flyout-wrap {padding: 15px 0;}
 	#flyout{display:none}
-	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
+	#flyout-header,
 	#flyout li:hover > ul{display:none}
+	#flyout-toggle {color: #fff; font-size: 20px;}
+	.toggle-children {position: absolute; top: 0; right: 0; width: 45px; height: 45px; line-height: 45px; font-size: 24px; text-align: center; background-color: rgba(0,0,0,.2);}
 
 	/*--------------- #slider ---------------*/
 	#slider {height: 700px; margin-top: 0;}
@@ -659,6 +668,11 @@ footer .social-links {margin: 0 0 0 25px;}
 
 	/*--------------- footer ---------------*/
 	footer {padding: 15px;}
+
+	/*--------------- #entry ---------------*/
+	#entry {margin-top: 15px;}
+	#page-title {font-size: 50px;}
+	#post {font-size: 14px;}
 
 }
 
@@ -713,6 +727,10 @@ footer .social-links {margin: 0 0 0 25px;}
 	#footer-left div:first-child,
 	#footer-right a,
 	#footer-right span {font-size: 12px;}
+
+	/*--------------- #entry ---------------*/
+	#page-title {font-size: 40px;}
+	#flyout-toggle {font-size: 18px;}
 
 }
 
