@@ -33,8 +33,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{font-size:28px;color:#1e2024;margin-bottom:30px}
+.subheader{font-size:20px;font-weight:700;letter-spacing:0.1em;line-height:48px;text-transform:uppercase;color:#1e2024;display:block;margin:20px 0}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -354,19 +354,39 @@ footer .social-links {margin: 0 0 0 25px;}
 #inner
 
 -----------------------------------------*/
-#flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
-#flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
+#freeform main .container {padding-bottom: 60px;}
 
-.breadcrumbs{font-size:13px;text-transform:capitalize}
-.breadcrumbs p{margin:0}
-.breadcrumbs a{text-decoration:none}
-.breadcrumbs i{font-size:13px;margin:0 4px}
+/*--------------- #slider ---------------*/
+#freeform #slider {height: 464px; margin: 0;}
+
+/*--------------- #flyout ---------------*/
+#side-content {background-color: #1369a2;margin: 70px -21px 0 -1px;}
+#flyout-wrap {padding: 53px 0px;}
+#flyout{margin:0;padding:0;}
+#flyout li{margin:0;display:block;position:relative; padding: 0 41px;z-index: 51;}
+#flyout li:hover {background-color: #00aaab; box-shadow: 0px 4px 2px rgba(0,0,0,.2);}
+#flyout a,
+#flyout span{font-size: 18px; font-weight: 600; color: #fff; text-transform: capitalize; text-decoration:none;display:block; margin-left: 2px; padding: 18px 0 19px; border-bottom: 1px solid rgba(255,255,255,.2)}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#00aaab}
+#flyout ul li {padding: 0;}
+#flyout ul a,
+#flyout ul span{font-size:14px;padding:15px;width:180px}
+#flyout li:hover > ul{display:block}
+#flyout-header {font-size: 24px; letter-spacing: 0.05em; font-weight: 700; text-transform: uppercase; color: #fff; line-height: 28px;display: block; margin-bottom: 24px;padding: 0 41px;}
+
+/*--------------- #entry ---------------*/
+#entry {margin: 64px 0 0 -12px; padding-right: 61px;}
+#breadcrumbs{font-size:13px;text-transform:capitalize}
+#breadcrumbs p{font-size: 14px; font-weight: 700; text-transform: uppercase; margin:0; color: #00aaab;}
+#breadcrumbs a{text-decoration:none; color: #68686a;}
+#breadcrumbs a:after {content: '\f105'; font-family: 'FontAwesome'; margin: 0 17px 0 6px;}
+#breadcrumbs i{font-size:13px;margin:0 4px}
+
+#page-title {font-family: 'Coves'; font-size: 60px; font-weight: 700; text-transform: uppercase; color: #2b2c30; text-shadow: 0px 5px 0px rgba(0,0,0,.1); margin: 17px 0 0px; letter-spacing: 0.03em;}
+#post {font-size: 16px; line-height: 24px; font-weight: 600;}
+#post p {margin: 24px 0 33px;}
+#post ul {margin: 0; padding: 0 0 0 40px;}
+#post ul li {margin-bottom: 15px;}
 
 /* -----------------------------------------
 
@@ -470,6 +490,8 @@ footer .social-links {margin: 0 0 0 25px;}
 
 
 	#flyout,#nav{display:block!important}
+	#flyout-toggle {display: none;}
+	.toggle-children {display: none;}
 
 	/*--------------- #welcome ---------------*/
 	#welcome-left {padding: 44px 230px 70px 92px;}
