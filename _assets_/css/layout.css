@@ -212,7 +212,7 @@ header {position:relative;z-index:100}
 .translation-links span{font-size:16px;cursor:pointer;display:block;margin:0 24px;color:#149b9b;font-size:14px;font-weight:700;text-transform:uppercase}
 .translation-links span img{display:inline-block;margin-top:-2px;margin-right:9px}
 .translation-links li{margin:0;list-style:none}
-.translation-links ul{position:absolute;left:15px;right:15px;top:calc(100% + 50px);display:none;z-index:201;padding:30px;margin:0;background-color:#fff}
+.translation-links ul{position:absolute;left:15px;right:15px;top:100%;display:none;z-index:201;padding:30px;margin:0;background-color:#fff}
 .translation-links ul li{float:left;width:25%}
 .translation-links ul a{display:block;text-decoration:none;padding:5px;color:#149b9b}
 
@@ -520,7 +520,6 @@ footer .social-links {margin:0 0 0 25px}
 		width:992px;
 		height:260px;
 	}
-	.translation-links ul{top:calc(100% + 49px)}
 
 	/*--------------- #slider ---------------*/
 	#slider {height:800px;margin-top:149px}
