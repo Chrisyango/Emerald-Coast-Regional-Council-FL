@@ -27,7 +27,7 @@
 	<![endif]-->
 
 </head>
-<body id="freeform">
+<body id="dept-freeform" class="fullwidth">
 
 <header>
 	<div class="container">
@@ -202,74 +202,46 @@
 
 <section id="slider">
 	<ul class="bxslider">
-		<li style="background: url('./_assets_/images/inner-hero.jpg') top left no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/inner-hero2.jpg') top left no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
 </section><!-- /#slider -->
 
 <main id="main">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<aside id="side-content" class="equal">
-					<div id="flyout-wrap">
-						<span id="flyout-header">section name here</span>
-						<ul id="flyout">
-							<li><a href="./">sem inceptos fermentum vehicula adipiscing</a></li>
-							<li><a href="./">lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-							<li><a href="./">maecenas sed diam eget risus varius blandit sit amet non.</a></li>
-							<li>
-								<a href="./">page title lorem ipsum dolor</a>
-								<ul>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
-									<li><a href="./">flyout link</a></li>
-								</ul>
-							</li>
-							<li><a href="./">nulla vitae elit libero, a pharetra augue</a></li>
-							<li><a href="./">donec sed odio dui.</a></li>
-							<li><a href="./">vivamus sagitis lacus vel augue.</a></li>
-						</ul><!-- /#flyout -->
-					</div><!-- /#flyout-wrap -->
-				</aside><!-- /#side-content -->
-			</div><!-- col-md-3 -->
-			<div class="col-md-8 col-md-offset-1">
-				<article id="entry" class="equal">
-					<section id="breadcrumbs">
-							<p>
-								<a href="./">
-									home
-								</a>
-								<a href="./">
-									category
-								</a>
-								page title
-							</p>
-					</section><!-- /#breadcrumbs -->
-					<h1 id="page-title">page title here</h1>
-					<div id="post">
-						<p>
-							Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
-						</p>
-						<img src="./_assets_/images/inner-img.jpg" alt="Image of a forest creek">
-						<p>
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.
-						</p>
-						<ul>
-							<li>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</li>
-							<li>Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel sceleris.</li>
-						</ul>
-						<span class="subheader">Subheading (h2)</span>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-						</p>
-						<p>
-							Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-						</p>
-					</div><!-- /#post -->
-				</article><!-- /#entry -->
-			</div><!-- /.col-md-8 -->
-		</div><!-- /.row -->
+    <article id="entry" class="equal">
+      <section id="breadcrumbs">
+          <p>
+            <a href="./">
+              home
+            </a>
+            <a href="./">
+              category
+            </a>
+            page title
+          </p>
+      </section><!-- /#breadcrumbs -->
+      <h1 id="page-title">dept page title here</h1>
+      <div id="post">
+        <p>
+          Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+        </p>
+        <img src="./_assets_/images/inner-img2.jpg" alt="Image of greenery">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.
+        </p>
+        <ul>
+          <li>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</li>
+          <li>Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel sceleris.</li>
+        </ul>
+        <span class="subheader">Subheading (h2)</span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        </p>
+        <p>
+          Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        </p>
+      </div><!-- /#post -->
+    </article><!-- /#entry -->
 	</div><!-- /.container -->
 </main>
 
