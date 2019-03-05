@@ -160,7 +160,7 @@
 					<form class="search-form" method="get" action="search.php">
 						<label class="sr-only" for="search-input">Search site</label>
 						<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
-						<button></button>
+						<button class="fa fa-search"></button>
 					</form><!-- /.search-form -->
 				</div><!-- /#search -->
 			</div><!-- /#right-nav -->
