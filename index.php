@@ -37,6 +37,10 @@
 </head>
 <body id="homepage">
 
+<div id="nav-images" class="hidden">
+	<div class="nav-image" style="background:url('_assets_/images/mega.jpg') center no-repeat;background-size:cover">1</div>
+	<div class="nav-image" style="background:url('_assets_/images/mega.jpg') center no-repeat;background-size:cover">2</div>
+</div>
 <header>
 	<div class="container">
 		<div id="toggles" class="hidden-lg hidden-md">
@@ -154,7 +158,7 @@
 				</div>
 				<div id="search">
 					<form class="search-form" method="get" action="search.php">
-						<label class="fa fa-search" for="search-input"></label>
+						<label class="sr-only" for="search-input">Search site</label>
 						<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
 						<button></button>
 					</form><!-- /.search-form -->
@@ -168,7 +172,6 @@
 				<li>
 					<a href="./">home</a>
 					<ul>
-						<li class="img-container" style="background: url('./_assets_/images/mega.jpg') center no-repeat;background-size: cover;"></li>
 						<li><a href="./">vulputate fermentum porta</a></li>
 						<li><a href="./">cursus cras elit</a></li>
 						<li><a href="./">quam justo egestas</a></li>
@@ -197,7 +200,36 @@
 						<li><a href="./">ornare vulputate euismod</a></li>
 					</ul>
 				</li>
-				<li><a href="./">who we are</a></li>
+				<li><a href="./">who we are</a>
+					<ul>
+						<li><a href="./">vulputate fermentum porta</a></li>
+						<li><a href="./">cursus cras elit</a></li>
+						<li><a href="./">quam justo egestas</a></li>
+						<li>
+							<a href="./">aenean vehicula egestas</a>
+							<ul>
+								<li><a href="./">porta ligula fusce</a></li>
+								<li><a href="./">magna venenatis mollis</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="./">porta parturient ligula</a></li>
+						<li>
+							<a href="./">aenean risus parturient</a>
+							<ul>
+								<li><a href="./">porta ligula fusce</a></li>
+								<li><a href="./">magna venenatis mollis</a></li>
+							</ul>
+						</li>
+						<li><a href="./">tristique sem sit</a></li>
+						<li><a href="./">sit amet fusce adipiscing vulputate</a></li>
+						<li><a href="./">sollicitudin fermentum inceptos</a></li>
+						<li><a href="./">lorem vehicula condimentum</a></li>
+						<li><a href="./">tellus risus ornare</a></li>
+						<li><a href="./">vehicula pellentesque cursus</a></li>
+						<li><a href="./">ornare vulputate euismod</a></li>
+					</ul>
+				</li>
 				<li><a href="./">our programs</a></li>
 				<li><a href="./">our services</a></li>
 				<li><a href="./">how do i?...</a></li>
@@ -344,21 +376,10 @@
 					<a href="./" class="btn">all events</a>
 				</div><!-- /#events-left.col-md-7 -->
 				<div id="events-right" class="col-md-5 equal">
-					<a href="./" class="events-link">
-						<span>august 16, 2018</span>
-						ligula nibh adipiscing dapib bibendum lorem ipsum
-					</a>
-					<a href="./" class="events-link">
-						<span>august 16, 2018</span>
-						ligula nibh adipiscing dapib bibendum lorem ipsum
-					</a>
-					<a href="./" class="events-link">
-						<span>august 16, 2018</span>
-						ligula nibh adipiscing dapib bibendum lorem ipsum
-					</a>
+					<img src="./_assets_/images/events.png" alt="Events listed">
 				</div><!-- /#events-right.col-md-5 -->
 			</div><!-- /.row -->
-			<img src="./_assets_/images/calendar.jpg" alt="Calendar">
+			<img src="./_assets_/images/calendar.jpg" alt="Calendar" id="calendar-img">
 		</div><!-- /.container -->
 	</section><!-- /#events -->
 

@@ -229,7 +229,7 @@
 						</ul><!-- /#flyout -->
 					</div><!-- /#flyout-wrap -->
 					<div id="inner-events">
-						<img src="./_assets_/images/inner-calendara.png" alt="Events Image">
+						<img src="./_assets_/images/inner-calendar.png" alt="Events Image">
 					</div>
 				</aside><!-- /#side-content -->
 			</div><!-- col-md-3 -->

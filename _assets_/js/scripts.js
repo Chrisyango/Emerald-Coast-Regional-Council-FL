@@ -216,6 +216,13 @@
 	}
 
 	$window.ready(function(){
+		$('#nav>li>ul').wrap('<div class="mega-menu clearfix"></div>');
+		
+		$('.nav-image').each(function(){
+			var navIndex = $(this).index();
+			$(this).clone().prependTo($('#nav>li').eq(navIndex).children('.mega-menu'));
+		});
+		
 
 		$('#video-player').prepend('<img class="btn-scroll" src="_assets_/images/scroll.png" alt="Scroll button">');
 
