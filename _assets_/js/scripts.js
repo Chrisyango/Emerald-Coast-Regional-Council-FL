@@ -87,11 +87,11 @@
 	$('.toggle').on('click keydown', function(e) {
 		if (e.keyCode === 13 || e.type === 'click') {
 			e.preventDefault();
-			if ($(this).parent().next('.first-level').is(':visible')) {
-				$(this).parent().next('.first-level').slideUp();
+			if ($(this).parent().next('.mega-menu').is(':visible')) {
+				$(this).parent().next('.mega-menu').slideUp();
 			} else {
-				$('.first-level').slideUp('slow');
-				$(this).parent().next('.first-level').slideToggle();
+				$('.mega-menu').slideUp('slow');
+				$(this).parent().next('.mega-menu').slideToggle();
 			}
 		}
 	});

@@ -197,7 +197,7 @@ body{overflow-x:hidden}
 .toggle2{display:none}
 
 .nav-image{height:214px;width:28.2%;float:left;margin-right:30px}
-.mega-menu{position:absolute;left:80px;right:-96px;top:100%;background:#fff;padding:30px 30px 20px;text-align:left;display:none}
+.mega-menu{display:none}
 #nav>li>ul{width:73.274336283185843%;float:right}
 /*--------------- #nav ---------------*/
 header {position:relative;z-index:100}
@@ -284,7 +284,7 @@ nav {background-color:#72bd4a;width:100%}
 
 #welcome-right {background-color:#71bc49;padding:25px 15px 56px 15px;height:100%}
 #welcome-right h3 {font-size:24px;line-height:45px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:#131313}
-#welcome-right a {display:block;font-size:20px;line-height:30px;font-weight:700;text-transform:capitalize;text-decoration:none;color:#fff;margin-bottom:10px}
+#welcome-right a {display:block;font-size:20px;line-height:30px;font-weight:700;text-transform:capitalize;text-decoration:none;color:#fff;margin-bottom:10px;padding-right:15px}
 #welcome-right a:last-child {display:inline-block;position:relative;font-size:14px;line-height:18px;text-transform:uppercase;margin-top:40px}
 #welcome-right a:last-child:after {content:'';position:absolute;top:5px;right:-60px;background:url('../images/arrow.png') center no-repeat;background-size:cover;height:14px;width:48px}
 #welcome-right a:last-child:hover {color:#135491}
@@ -458,6 +458,7 @@ footer .social-links {margin:0 0 0 25px}
 	/*--------------- #nav ---------------*/
 	header {position:fixed;top:0;left:0;background-color:#fff;width:100%}
 	header .container {position:relative}
+	.mega-menu {position:absolute;left:80px;right:-96px;top:100%;background:#fff;padding:30px 30px 20px;text-align:left}
 	#nav {margin:0 176px 0 0;text-align:right}
 	#nav>li:hover {background-color:#149b9a}
 	#nav>li:not(:last-child):after {content:'';position:relative;top:8px;padding:25px 1px 0 0;background-color:#fff;opacity:0.2}
@@ -483,6 +484,7 @@ footer .social-links {margin:0 0 0 25px}
 	#flyout,#nav{display:block!important}
 	#flyout li {padding:0 41px}
 	#flyout li:hover {background-color:#00aaab;box-shadow: 0px 7px 0px 0px rgba(19, 84, 145, 0.2)}
+	#flyout ul li:hover {background:rgba(0,0,0,.2);box-shadow:none}
 	#flyout-toggle {display:none}
 	.toggle-children {display:none}
 	#inner-events {padding:0 22px}
@@ -583,7 +585,7 @@ footer .social-links {margin:0 0 0 25px}
 	/* rz form tables - without page scope this targets editforms and makes
 	 * editing confusing
 	 */
-	 .floating-share-btn {top:75%}
+	 .floating-share-btn {top:unset;bottom:0}
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
@@ -605,17 +607,19 @@ footer .social-links {margin:0 0 0 25px}
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
 	#nav{display:none}
-	#nav li{float:none;display:block}
+	#nav li{float:none;display:block;position:relative}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;width:100%}
-	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2);display:none}
+	#nav li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;width:100%}
+	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
+	#nav ul ul {display:none}
 	#nav li:hover > ul{display:none}
 	#nav ul a,
 	#nav ul span{width:100%}
 	#nav ul ul{left:0}
 	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
+	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;font-size:24px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
+	.nav-image {display:none}
 
 	#side-content {margin:0 -15px;padding:0 15px}
 	#flyout-wrap {padding:15px 0}
@@ -647,20 +651,22 @@ footer .social-links {margin:0 0 0 25px}
 
 	/*--------------- #welcome ---------------*/
 	#welcome {padding:0}
-	#welcome-left {padding:15px 15px 70px}
+	#welcome-left {padding:50px 15px 70px}
 	#welcome-left h2 {margin-top:0}
 	#welcome-img {transform:translate(-5.2%, -36.5%)}
-	#welcome-right {padding-left:15px;padding-bottom:15px}
+	#welcome-right {padding-left:15px;padding-bottom:50px}
+	#welcome-right a {padding-right: 50%;}
 
 	/*--------------- #news ---------------*/
-	#news {padding-top:15px}
+	#news {padding:50px 0}
+	#news .btn {margin: 0;}
 
 	/*--------------- #events ---------------*/
 	#events {padding-top:10px}
-	#events-left {padding:15px 15px 130px}
+	#events-left {padding:50px 15px 130px}
 	#events-left h2 {margin-top:0}
 
-	#events-right {padding:130px 15px 15px}
+	#events-right {padding:130px 15px 50px}
 
 	/*--------------- #social-feed ---------------*/
 	.social-feed-element i {font-size:48px}
