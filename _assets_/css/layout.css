@@ -253,7 +253,7 @@ nav {background-color:#72bd4a;width:100%}
 #quick-links .owl-item:nth-child(1n) {background-color:#72bd4a}
 #quick-links .owl-item:nth-child(2n) {background-color:#135591}
 #quick-links .owl-item:nth-child(3n) {background-color:#149b9a}
-.quick-link {padding:20px 20px 46px;text-align:center;background-color:#fff;box-shadow:0px 4px 2px rgba(0,0,0,.4)}
+.quick-link {padding:20px 20px 46px;text-align:center;background-color:#fff;box-shadow: 0px 4px 0px 0px rgba(19, 84, 145, 0.2)}
 .quick-link h4 {font-size:18px;line-height:26px;font-weight:700;text-transform:uppercase;margin:23px 0 17px;text-shadow: 0px 4px 0px rgba(19, 84, 145, 0.2);}
 .quick-link a {position:relative;top:0;left:0;font-size:14px;line-height:18px;font-weight:700;text-transform:uppercase;text-decoration:none;color:#72bd4a}
 .quick-link a:hover:after {content:'';position:absolute;bottom:-17px;left:0px;background:url('../images/learn-more.png') center no-repeat;background-size:cover;height:8px;width:90px}
@@ -305,7 +305,7 @@ nav {background-color:#72bd4a;width:100%}
 .news-content {position:absolute;top:10px;left:10px;right:10px;bottom:10px;background-color:#fff;padding:59px 0 41px;opacity:0;transition:0.3s all}
 .news-content span {font-size:12px;line-height:18px;font-weight:700;color:#149b9b;text-transform:uppercase;display:block}
 .news-content h3 {font-family:'Coves';font-size:21px;line-height:48px;font-weight:700;letter-spacing:0.05em;color:#212124;text-transform:uppercase;margin:12px 0}
-.news-content p {font-size:18px;font-weight:600px;line-height:24px;text-transform:capitalize;color:#a2c0da}
+.news-content p {font-size:18px;font-weight:600;line-height:24px;text-transform:capitalize;color:#a2c0da}
 .news-content a {position:relative;font-size:14px;font-weight:700;line-height:48px;text-transform:uppercase;text-decoration:none;color:#71bc49;display:inline-block;margin-top:-16px}
 .news-content a:after {content:'';position:absolute;bottom:-1px;left:-4px;width:90px;height:8px;background:url('../images/learn-more.png') center no-repeat;background-size:cover}
 
@@ -598,7 +598,9 @@ footer .social-links {margin:0 0 0 25px}
 	nav {margin-top:-1px}
 	#toggles{float:right}
 	#search{width:calc(100% - 30px);position:absolute;top:calc(100% + 15px);right:15px}
-	#search input{width:100%}
+	#search input{width:100%;font-size:12px}
+	#search input::placeholder {font-size:12px}
+	#search button {font-size:18px}
 	#search-toggle-mobile,
 	#nav-toggle{line-height:45px;width:45px;text-align:center;border:1px solid rgba(0,0,0,.15);cursor:pointer;font-size:20px;color:#000;border-radius:4px;margin-left:5px;margin-top:20px}
 
@@ -656,10 +658,16 @@ footer .social-links {margin:0 0 0 25px}
 	#welcome-img {transform:translate(-5.2%, -36.5%)}
 	#welcome-right {padding-left:15px;padding-bottom:50px}
 	#welcome-right a {padding-right: 50%;}
+	#welcome-right a:last-child {padding-right: 15px;}
 
 	/*--------------- #news ---------------*/
 	#news {padding:50px 0}
-	#news .btn {margin: 0;}
+	#news .btn {margin:0;}
+	.news-content {opacity:1;top:40px;left:40px;right:40px;bottom:40px;padding:15px 5px 5px}
+	.news-content h3 {font-size:18px}
+	.news-content p {font-size:15px}
+	.news-content a {font-size:13px;position:absolute;bottom:15px;left:50%;transform:translateX(-50%)}
+	.news-content a:after {left:-7px}
 
 	/*--------------- #events ---------------*/
 	#events {padding-top:10px}
@@ -720,7 +728,7 @@ footer .social-links {margin:0 0 0 25px}
 	.news-link {width:100%;margin-right:0}
 
 	/*--------------- #events ---------------*/
-	#calendar-img {transform:translate(-20.15%, -53.4%);width:260px}
+	#calendar-img {transform:translate(-20.15%, -69.4%);width:260px}
 	#events-left h2 {font-size:40px;margin-bottom:0}
 	#events-left p {font-size:14px}
 	#events-right a {font-size:16px}
@@ -765,7 +773,8 @@ footer .social-links {margin:0 0 0 25px}
 	#welcome-img {display:none}
 
 	/*--------------- #events ---------------*/
-	#calendar-img {transform:translate(-50.15%, -53.4%);width:240px}
+	#calendar-img {transform:translate(-50.15%, -64.4%);width:240px}
+	.news-content h3 {line-height:26px}
 	
 }
 
