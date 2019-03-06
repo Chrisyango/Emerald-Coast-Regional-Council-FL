@@ -30,6 +30,7 @@
 <body id="dept-freeform">
 
 <header>
+	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 	<div class="container">
 		<div id="toggles" class="hidden-lg hidden-md">
 			<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
