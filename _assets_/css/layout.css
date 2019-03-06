@@ -523,6 +523,7 @@ footer .social-links {margin:0 0 0 25px}
 		width:992px;
 		height:260px;
 	}
+	.mega-menu {left:-15px;right:-15px}
 
 	/*--------------- #slider ---------------*/
 	#slider {height:800px;margin-top:149px}
