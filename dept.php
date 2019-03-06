@@ -29,6 +29,10 @@
 </head>
 <body id="dept-freeform">
 
+<div id="nav-images" class="hidden">
+	<div class="nav-image" style="background:url('_assets_/images/mega.jpg') center no-repeat;background-size:cover">1</div>
+	<div class="nav-image" style="background:url('_assets_/images/mega.jpg') center no-repeat;background-size:cover">2</div>
+</div>
 <header>
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 	<div class="container">
@@ -147,9 +151,9 @@
 				</div>
 				<div id="search">
 					<form class="search-form" method="get" action="search.php">
-						<label class="fa fa-search" for="search-input"></label>
+						<label class="sr-only" for="search-input">Search site</label>
 						<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
-						<button></button>
+						<button class="fa fa-search"></button>
 					</form><!-- /.search-form -->
 				</div><!-- /#search -->
 			</div><!-- /#right-nav -->
@@ -161,7 +165,6 @@
 				<li>
 					<a href="./">home</a>
 					<ul>
-						<li class="img-container" style="background: url('./_assets_/images/mega.jpg') center no-repeat;background-size: cover;"></li>
 						<li><a href="./">vulputate fermentum porta</a></li>
 						<li><a href="./">cursus cras elit</a></li>
 						<li><a href="./">quam justo egestas</a></li>
@@ -190,7 +193,36 @@
 						<li><a href="./">ornare vulputate euismod</a></li>
 					</ul>
 				</li>
-				<li><a href="./">who we are</a></li>
+				<li><a href="./">who we are</a>
+					<ul>
+						<li><a href="./">vulputate fermentum porta</a></li>
+						<li><a href="./">cursus cras elit</a></li>
+						<li><a href="./">quam justo egestas</a></li>
+						<li>
+							<a href="./">aenean vehicula egestas</a>
+							<ul>
+								<li><a href="./">porta ligula fusce</a></li>
+								<li><a href="./">magna venenatis mollis</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="./">porta parturient ligula</a></li>
+						<li>
+							<a href="./">aenean risus parturient</a>
+							<ul>
+								<li><a href="./">porta ligula fusce</a></li>
+								<li><a href="./">magna venenatis mollis</a></li>
+							</ul>
+						</li>
+						<li><a href="./">tristique sem sit</a></li>
+						<li><a href="./">sit amet fusce adipiscing vulputate</a></li>
+						<li><a href="./">sollicitudin fermentum inceptos</a></li>
+						<li><a href="./">lorem vehicula condimentum</a></li>
+						<li><a href="./">tellus risus ornare</a></li>
+						<li><a href="./">vehicula pellentesque cursus</a></li>
+						<li><a href="./">ornare vulputate euismod</a></li>
+					</ul>
+				</li>
 				<li><a href="./">our programs</a></li>
 				<li><a href="./">our services</a></li>
 				<li><a href="./">how do i?...</a></li>

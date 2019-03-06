@@ -227,9 +227,9 @@
 	$window.ready(function(){
 		$('#nav>li>ul').addClass('mega-menu clearfix');
 		$("#nav>li>ul").addClass('mega-menu clearfix');
-	$('#nav-images>.nav-image').each(function() {
-		$(this).clone().prependTo($('.mega-menu').eq($(this).index()).addClass('withImage')).wrap('<li class="nav-img-wrapper"></li>');
-	});
+		$('#nav-images>.nav-image').each(function() {
+			$(this).clone().prependTo($('.mega-menu').eq($(this).index()).addClass('withImage')).wrap('<li class="nav-img-wrapper"></li>');
+		});
 		
 
 		$('#video-player').prepend('<img class="btn-scroll" src="_assets_/images/scroll.png" alt="Scroll button">');
