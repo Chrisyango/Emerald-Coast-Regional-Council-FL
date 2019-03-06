@@ -190,7 +190,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 #skip{position:fixed;top:150px;left:-100%;transition: all .3s ease-in}
-#skip:focus{left:200px}
+#skip:focus{left:15px;text-decoration:none;color:#fff;background-color:#149b9a;padding:10px 20px}
 body{overflow-x:hidden}
 .container {width:1320px;max-width:100%}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -647,7 +647,7 @@ footer .social-links {margin:0 0 0 25px}
 	#flyout-header,
 	#flyout li:hover > ul{display:none}
 	#flyout-toggle {color:#fff;font-size:20px}
-	.toggle-children {position:absolute;top:0;right:0;width:45px;height:45px;line-height:45px;font-size:24px;text-align:center;background-color:rgba(0,0,0,.2)}
+	#flyout .toggle {position:absolute;top:0;right:0;width:45px;height:45px;font-size:24px;text-align:center;background-color:rgba(0,0,0,.2)}
 
 	/*--------------- #slider ---------------*/
 	#slider {height:700px;margin-top:0}
